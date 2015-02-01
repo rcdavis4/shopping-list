@@ -17,9 +17,13 @@ body {
 }
 
 .content {
-  width: 70%;
+  max-width: 70vw;
   margin: 0 auto;
   padding: 0 0.938rem; /* equiv. to 15px */
+}
+
+img, video, canvas {
+  max-width: 100%;
 }
 
 
@@ -28,8 +32,6 @@ body {
   GENERAL
   ========================================
 */
-
-
 
 
 
