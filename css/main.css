@@ -19,7 +19,6 @@ body {
 .content {
   max-width: 70vw;
   margin: 0 auto;
-  padding: 0 0.938rem; /* equiv. to 15px */
 }
 
 img, video, canvas {
@@ -29,9 +28,42 @@ img, video, canvas {
 
 /*
   ========================================
-  GENERAL
+  HEADER
   ========================================
 */
+
+header {
+  height: 40vh;
+  background-color: #607d8b;
+  z-index: -999;
+}
+
+
+/*
+  ========================================
+  LIST
+  ========================================
+*/
+
+.shopping-list {
+  position: absolute;
+  top: 15%;
+  left: -50vw;
+  right: -50vw;
+  background-color: #eee;
+  z-index: 1;
+
+  /*  placeholder measurements */
+  height: 500px;
+  width: 50vw;
+}
+
+.list-head {
+  display: inline-block;
+  width: 100%;
+  padding: 40px;
+  margin-bottom: 20px;
+}
 
 
 
