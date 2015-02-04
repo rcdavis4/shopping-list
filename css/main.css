@@ -17,17 +17,99 @@ body {
 }
 
 .content {
-  max-width: 40vw;
+  max-width: 70vw;
   margin: 0 auto;
-}
-
-img, video, canvas {
-  max-width: 100%;
 }
 
 
 /*
   ========================================
-  GENERAL
+  BUTTONS
   ========================================
 */
+
+.lg-btn {
+  width: 8em;
+  display: inline-block;
+  background-color: #4D79A3;
+  padding: 0.4em 1em;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.lg-btn:hover {
+  color: #fff;
+  background-color: #4D79A3;
+  transition: ease-in-out .1s;
+  cursor: pointer;
+}
+
+.sm-btn {
+  
+}
+
+.sm-btn:hover {
+  
+}
+
+
+/*
+  ========================================
+  INPUT FIELD
+  ========================================
+*/
+
+.user-input {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.user-input input {
+  height: 50px;
+  width: 50%;
+  text-align: center;
+}
+
+.add {
+  display: block;
+  margin: 15px auto;
+}
+
+
+/*
+  ========================================
+  ITEM LIST
+  ========================================
+*/
+
+.item-list {
+  display: none;
+  margin-top: 100px;
+}
+
+.item-list li {
+  width: 50%;
+  margin: 0 auto 30px auto;
+  height: 50px;
+  padding-top: 18px;
+  border: 1px solid grey;
+  text-align: center;
+}
+
+.checked {
+  float: left;
+  padding-left: 30px;
+}
+
+.delete {
+  float: right;
+  padding-right: 30px;
+}
+
+.item-list li:nth-child(3) {
+  text-decoration: line-through;
+}
+
+
+
