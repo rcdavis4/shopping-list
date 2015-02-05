@@ -28,7 +28,7 @@ body {
   ========================================
 */
 
-.lg-btn {
+button {
   width: 8em;
   display: inline-block;
   background-color: #4D79A3;
@@ -36,21 +36,15 @@ body {
   border-radius: 2px;
   color: #fff;
   font-size: 1.2em;
+  border: none;
+  outline:none;
 }
 
-.lg-btn:hover {
+button:hover {
   color: #fff;
   background-color: #4D79A3;
   transition: ease-in-out .1s;
   cursor: pointer;
-}
-
-.sm-btn {
-  
-}
-
-.sm-btn:hover {
-  
 }
 
 
@@ -68,6 +62,7 @@ body {
 .user-input input {
   height: 50px;
   width: 50%;
+  font-size: 1.2em;
   text-align: center;
 }
 
@@ -84,31 +79,33 @@ body {
 */
 
 .item-list {
-  display: none;
-  margin-top: 100px;
+  margin: 100px auto;
 }
 
 .item-list li {
   width: 50%;
-  margin: 0 auto 30px auto;
+  margin: 0 auto 10px auto;
   height: 50px;
-  padding-top: 18px;
+  padding-top: 16px;
   border: 1px solid grey;
   text-align: center;
+  font-size: 1.2em;
 }
 
 .checked {
-  float: left;
-  padding-left: 30px;
+  text-decoration: line-through;
+  background-color: grey;
 }
 
 .delete {
   float: right;
-  padding-right: 30px;
+  background: url(../img/close-icon.svg);
+  background-size: 12px 12px;
 }
 
-.item-list li:nth-child(3) {
-  text-decoration: line-through;
+.close {
+  background: url(../img/close-icon.svg);
+  background-color: black;
 }
 
 
