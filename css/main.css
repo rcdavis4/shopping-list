@@ -25,9 +25,8 @@ body {
 .bg-top {
   width: 100vw;
   height: 50vh;
-  background-color: #3F51B5;
+  background-color: #607D8B;
   border-top: 5px solid #FF5722;
-  border-bottom: 5px solid #FF5722;
 }
 
 .bg-top h1 {
@@ -84,7 +83,6 @@ button:hover {
   left: 0;
   right: 0;
   margin-bottom: 100px;
-/*  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);*/
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
@@ -143,12 +141,12 @@ input:focus {
   font-size: 1.4em;
   color: rgba(0, 0, 0, 0.87);
   background-color: #fff;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
   letter-spacing: -0.8px;
 }
 
 .item:nth-child(1) {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
 }
 
 .item:hover {
@@ -157,7 +155,7 @@ input:focus {
 
 ul .completed {
   text-decoration: line-through;
-  color: rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.26);
 }
 
 .delete {
@@ -171,6 +169,11 @@ ul .completed {
   right: 16px;
   border-radius: 50%;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.ui-sortable li:active {
+  transform: scale(1.1);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 
