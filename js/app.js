@@ -27,13 +27,13 @@ $(document).ready(function() {
 
   // clicking close-icon deletes item
   $('#list').on('click', '.delete', function() {
-    $('.item').remove();
+    $(this).parent().remove();
   });
 
   // select and hold raises item, changes color to arrange (import jquery-ui)
   $(function() {
     $('#list').sortable();
     $('#list').disableSelection();
-  })
+  });
 
 }); // end of document.ready
