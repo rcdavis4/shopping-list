@@ -11,9 +11,10 @@ html {
 body {
   width: 100vw;
   height: 100%;
-  background-color: #fff;
-  font-family: sans-serif;
+  background-color: #e5e5e8;
+  font-family: 'Roboto', sans-serif;
   font-size: 1em;
+  8
 }
 
 .content {
@@ -21,21 +22,47 @@ body {
   margin: 0 auto;
 }
 
-img, video, canvas {
-  max-width: 100%;
+.bg-top {
+  width: 100vw;
+  height: 50vh;
+  background-color: #607D8B;
+  border-top: 5px solid #FF5722;
+}
+
+.bg-top h1 {
+  position: relative;
+  text-align: center;
+  padding-top: 2.5%;
+  font-size: 4em;
+  letter-spacing: -2.4px;
+  color: #fff;
 }
 
 
 /*
   ========================================
-  HEADER
+  BUTTONS
   ========================================
 */
 
-header {
-  height: 40vh;
-  background-color: #607d8b;
-  z-index: -999;
+button {
+  width: 8em;
+  display: inline-block;
+  background-color: #FF5722;
+  padding: 0.4em 1em;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 1.2em;
+  border: none;
+  outline:none;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+button:hover {
+  color: #fff;
+  background-color: #FF8A65;
+  transition: ease-in-out .1s;
+  cursor: pointer;
 }
 
 
@@ -45,26 +72,50 @@ header {
   ========================================
 */
 
-.shopping-list {
+.list-container {
   position: absolute;
-  top: 15%;
-  left: -50vw;
-  right: -50vw;
-  background-color: #eee;
-  z-index: 1;
+  display: inline-block;
+  background-color: #fff;
+  width: 35%;
+  height: auto;
+  top: 20%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  margin-bottom: 100px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
 
+
+<<<<<<< HEAD
   /*  placeholder measurements */
   height: 600px;
   width: 50vw;
+=======
+/*
+  ========================================
+  INPUT FIELD
+  ========================================
+*/
+
+.user-input {
+  margin-top: 8.5%;
+  text-align: center;
+>>>>>>> bare-bones
 }
 
-.list-head {
-  display: inline-block;
-  width: 100%;
-  padding: 40px;
+.user-input input {
+  height: 50px;
+  width: 70%;
   margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  font-weight: 300;
+  text-align: center;
+  border: none:
 }
 
+<<<<<<< HEAD
 .title {
   text-align: center;
   font-size: 2em;
@@ -87,35 +138,75 @@ header {
   text-align: center;
 } 
 
+=======
+input:focus {
+  outline: none;
+}
+>>>>>>> bare-bones
 
+.add {
+  display: block;
+  margin: 15px auto;
+}
 
 
 /*
   ========================================
-  MEDIA QUERIES
+  ITEMS
   ========================================
 */
 
-@media only screen and (min-width: 480px) {
-  /* 480 =================================================== */
+#list {
+  position: relative;
+  padding: 100px 0 56px 0;
 }
-@media only screen and (min-width: 600px) {
-  /* 600 =================================================== */
+
+.item {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  height: 56px;
+  padding: 16px 0 0 50px;
+  text-align: center;
+  font-size: 1.4em;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  letter-spacing: -0.8px;
 }
-@media only screen and (min-width: 768px) {
-  /* 768 =================================================== */
+
+.item:nth-child(1) {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
 }
-@media only screen and (min-width: 992px) {
-  /* 992 =================================================== */
+
+.item:hover {
+  cursor: pointer;
 }
-@media only screen and (min-width: 1382px) {
-  /* 1382 =================================================== */
-  body {
-    max-width: 1440px;
-  }
+
+ul .completed {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.26);
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5) {
-  /* 2x =================================================== */
+
+.delete {
+  position: relative;
+  background: url(../img/close-icon.svg);
+  background-repeat: no-repeat;
+  background-size: 24px;
+  height: 24px;
+  width: 24px;
+  float: right;
+  right: 16px;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
+
+.ui-sortable li:active {
+  transform: scale(1.1);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+
+
