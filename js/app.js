@@ -2,13 +2,10 @@ $(document).ready(function() {
 
   // click add button to create item list
   $('.add').click(function() {
-
     // create variable to store value from input element
     var userIn = $('#add-item').val();
-
     // makes new list item
     $('#list').append('<li class="item">' + userIn + '<span class="delete"></span></li>');
-
     // resets input field's placeholder value
     $('input').val('');
   })
@@ -20,7 +17,7 @@ $(document).ready(function() {
     }
   });
 
-  // mark item as completed
+  // marks item as completed
   $('#list').on('click', '.item', function() {
     $(this).toggleClass('completed');
   });
@@ -30,7 +27,7 @@ $(document).ready(function() {
     $(this).parent().remove();
   });
 
-  // select and hold raises item, changes color to arrange (import jquery-ui)
+  // arranges items
   $(function() {
     $('#list').sortable();
     $('#list').disableSelection();

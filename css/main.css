@@ -14,7 +14,6 @@ body {
   background-color: #e5e5e8;
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
-  8
 }
 
 .content {
@@ -86,12 +85,6 @@ button:hover {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
-
-<<<<<<< HEAD
-  /*  placeholder measurements */
-  height: 600px;
-  width: 50vw;
-=======
 /*
   ========================================
   INPUT FIELD
@@ -101,7 +94,6 @@ button:hover {
 .user-input {
   margin-top: 8.5%;
   text-align: center;
->>>>>>> bare-bones
 }
 
 .user-input input {
@@ -115,7 +107,6 @@ button:hover {
   border: none:
 }
 
-<<<<<<< HEAD
 .title {
   text-align: center;
   font-size: 2em;
@@ -136,13 +127,7 @@ button:hover {
   height: 40px;
   width: 50%;
   text-align: center;
-} 
-
-=======
-input:focus {
-  outline: none;
 }
->>>>>>> bare-bones
 
 .add {
   display: block;
