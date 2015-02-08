@@ -107,6 +107,10 @@ button:hover {
   border: none:
 }
 
+.user-input input:focus {
+  outline: none;
+}
+
 .title {
   text-align: center;
   font-size: 2em;
