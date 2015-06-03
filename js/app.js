@@ -19,13 +19,11 @@ $(document).ready(function() {
 
   // marks item as completed
   $('#list').on('click', '.item', function() {
-//    $(this).offsetParent().removeClass('ui-sortable');
     $(this).toggleClass('completed');
   });
 
   // clicking close-icon deletes item
   $('#list').on('click', '.delete', function() {
-//    $(this).offsetParent().removeClass('ui-sortable');
     $(this).parent().remove();
   });
 
