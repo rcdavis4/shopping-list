@@ -226,6 +226,10 @@ ul .completed {
 	#list {
   	padding-top: 3rem;
 	}
+	
+	.bg-top h1 {
+		font-size: 3.5rem;
+	}
 }
 
 
