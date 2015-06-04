@@ -152,9 +152,8 @@ button:hover {
   cursor: pointer;
 }
 
-.arrow {
-	padding-left: 3.75rem; 
-	margin-right: -5rem;
+.close-btn {
+	padding: 0 10px;
 }
 
 ul .completed {
