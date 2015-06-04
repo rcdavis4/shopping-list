@@ -187,7 +187,7 @@ ul .completed {
 \*------------------------*/
 
 @media only screen 
-	and (min-width: 501px)
+	and (min-width: 481px)
 	and (max-width: 768px) {
 		
 	.list-container {
@@ -196,8 +196,8 @@ ul .completed {
 } 
 
 @media only screen 
-	and (min-width: 200px)
-	and (max-width: 500px) {
+	and (min-width: 300px)
+	and (max-width: 480px) {
 	
 	.list-container {
 		width: 100%;
