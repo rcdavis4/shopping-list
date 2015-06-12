@@ -217,7 +217,8 @@ ul .completed {
 	}
 		
 	.bg-top h1 {
-		padding-top: 5rem;
+		padding-top: 1.5rem;
+		font-size: 3.5rem;
 	}
 	
 	.user-input {
@@ -226,10 +227,6 @@ ul .completed {
 		
 	#list {
   	padding-top: 5rem;
-	}
-	
-	.bg-top h1 {
-		font-size: 3.5rem;
 	}
 }
 
