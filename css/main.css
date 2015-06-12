@@ -25,17 +25,18 @@ body {
 .bg-top {
   width: 100vw;
   height: 50vh;
-  background-color: #607D8B;
-  border-top: 5px solid #FF5722;
+  background-color: #E64A19;
+  border-top: 30px solid #C42E00;
 }
 
 .bg-top h1 {
   position: relative;
   text-align: center;
-  padding-top: 2.5%;
+  padding-top: 5%;
   font-size: 4em;
   letter-spacing: -2.4px;
   color: #fff;
+	font-weight: 300;
 }
 
 
@@ -48,7 +49,7 @@ body {
 button {
   width: 8em;
   display: inline-block;
-  background-color: #FF5722;
+  background-color: #607D8B;
   padding: 0.4em 1em;
   border-radius: 2px;
   color: #fff;
@@ -60,7 +61,7 @@ button {
 
 button:hover {
   color: #fff;
-  background-color: #FF8A65;
+  background-color: #789DAE;
   transition: ease-in-out .1s;
   cursor: pointer;
 }
@@ -78,7 +79,7 @@ button:hover {
   background-color: #fff;
   width: 40%;
   height: auto;
-  top: 20%;
+  top: 25%;
   margin: 0 auto;
   left: 0;
   right: 0;
@@ -93,7 +94,7 @@ button:hover {
 */
 
 .user-input {
-  margin-top: 8.5%;
+  padding-top: 25%;
   text-align: center;
 }
 
@@ -216,15 +217,15 @@ ul .completed {
 	}
 		
 	.bg-top h1 {
-		padding-top: 2rem;
+		padding-top: 5rem;
 	}
 	
 	.user-input {
-  	margin-top: 15%;
+  	padding-top: 20%;
 	}
 		
 	#list {
-  	padding-top: 3rem;
+  	padding-top: 5rem;
 	}
 	
 	.bg-top h1 {
